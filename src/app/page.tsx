@@ -9,7 +9,7 @@ export default function Home() {
   console.log("width:", width, "height", height);
 
   return (
-    <main className="min-h-screen bg-teal-50">
+    <main className="min-h-screen">
       <Header />
 
       <BlogBox />

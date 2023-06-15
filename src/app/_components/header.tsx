@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
 
 import { GetWindowSize } from "../_utils/getWindowsSize";
@@ -15,7 +16,9 @@ const Header = () => {
     <>
       <div className="w-screen h-20 bg-white shadow-lg z-40">
         <div className="flex justify-between max-w-7xl mx-auto text-slate-800 pt-6">
-          <h1 className="mx-10 text-2xl">PRACTICE</h1>
+          <h1 className="mx-10 text-2xl">
+            <Link href="/">PRACTICE</Link>
+          </h1>
           <div className="mx-10 text-2xl">
             <button
               type="button"

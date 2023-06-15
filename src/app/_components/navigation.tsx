@@ -27,8 +27,12 @@ export const Navigation = (props: NavigationProps) => {
         <li className="my-auto mt-2 hover:cursor-pointer">
           <Link href="/">HOME</Link>
         </li>
-        <li className="my-auto mt-2 text-sky-600 underline hover:cursor-pointer"></li>
-        <li className="my-auto mt-2 text-sky-600 underline hover:cursor-pointer"></li>
+        <li className="my-auto mt-2 hover:cursor-pointer">
+          <Link href="/blog">BLOG</Link>
+        </li>
+        <li className="my-auto mt-2 hover:cursor-pointer">
+          <Link href="/contact">CONTACT</Link>
+        </li>
       </ul>
     </nav>
   );
