@@ -1,7 +1,6 @@
 "use client";
 
-import { BlogBox } from "./_components/blogBox";
-import Header from "./_components/header";
+import { BlogBlockBox } from "./_components/blogBlockBox";
 import { GetWindowSize } from "./_utils/getWindowsSize";
 
 export default function Home() {
@@ -9,10 +8,8 @@ export default function Home() {
   console.log("width:", width, "height", height);
 
   return (
-    <main className="min-h-screen">
-      <Header />
-
-      <BlogBox />
-    </main>
+    <>
+      <BlogBlockBox />
+    </>
   );
 }

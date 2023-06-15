@@ -24,13 +24,13 @@ export const Navigation = (props: NavigationProps) => {
         </button>
       </div>
       <ul className="mt-8 text-base">
-        <li className="my-auto mt-2 hover:cursor-pointer">
+        <li className="my-auto mt-2 hover:cursor-pointer hover:text-sky-700">
           <Link href="/">HOME</Link>
         </li>
-        <li className="my-auto mt-2 hover:cursor-pointer">
+        <li className="my-auto mt-2 hover:cursor-pointer hover:text-sky-700">
           <Link href="/blog">BLOG</Link>
         </li>
-        <li className="my-auto mt-2 hover:cursor-pointer">
+        <li className="my-auto mt-2 hover:cursor-pointer hover:text-sky-700">
           <Link href="/contact">CONTACT</Link>
         </li>
       </ul>

@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export const BlogBox = () => {
+export const BlogBlockBox = () => {
   return (
     <>
       <section className="text-gray-600 body-font">

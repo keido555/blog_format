@@ -44,7 +44,7 @@ body {
 .toggleButton {
   border: none;
   background-color: transparent;
-  height: 100%;
+  height: 30px;
   z-index: 100;
 }
 

@@ -1,9 +1,9 @@
-import { BlogBox } from "./_components/blogBox";
+import { BlogSideBox } from "./_components/blogSideBox";
 
 const Blog = () => {
   return (
     <div>
-      <BlogBox />
+      <BlogSideBox />
     </div>
   );
 };
