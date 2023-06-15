@@ -4,7 +4,7 @@ export const BlogBlockBox = () => {
   return (
     <>
       <section className="text-gray-600 body-font">
-        <div className="container px-5 py-24 mx-auto">
+        <div className="container px-5 pt-24 pb-6 mx-auto">
           <div className="flex flex-wrap -m-4">
             <div className="p-4 md:w-1/3 drop-shadow-xl">
               <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
@@ -193,6 +193,11 @@ export const BlogBlockBox = () => {
               </div>
             </div>
           </div>
+        </div>
+        <div className="container px-5 pt-6 pb-12 mx-auto text-center">
+          <button className="px-5 py-4 drop-shadow-lg text-base font-medium text-center text-white transition duration-500 ease-in-out transform bg-blue-600 lg:px-10 rounded-xl hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
+            <Link href="/blog">もっと見る</Link>
+          </button>
         </div>
       </section>
     </>

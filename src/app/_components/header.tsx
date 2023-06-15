@@ -32,10 +32,15 @@ const Header = () => {
               <span className="line-2"></span>
               <span className="line-3"></span>
             </button>
-            <Navigation open={isOpen} onClick={handleClickToggleBtn} />
           </div>
         </div>
       </div>
+      <Navigation open={isOpen} onClick={handleClickToggleBtn} />
+      {isOpen ? (
+        <div className="fixed h-full w-full bg-black opacity-0 z-50" onClick={() => handleClickToggleBtn()}></div>
+      ) : (
+        <></>
+      )}
     </>
   );
 };
